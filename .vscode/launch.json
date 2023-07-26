@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="nav-extended grey darken-3 " role="navigation">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"></a>
+      <img src="imagenes del proyecto/Imagen1.png"
+        alt="C:\Users\DANNY LABORDE\Desktop\starter-template\imagenes del proyecto\Imagen1.png">
+      <div class="row">
+        <div class="col s1"></div>
+        <div class="nav-content right ">
+
+
+          <i class="material-icons">facebook ac_unit live_tv</i>
+
+
+          </ul>
+
+          <ul class="right">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">DESTINO</a></li>
+            <li><a href="#">PROMOCIONES</a></li>
+            <li><a href="#">SALONES Y CONVENCIONES</a></li>
+            <li><a href="#">FIDELIZACION</a></li>
+            <li><a href="#">RESERVA TU VUELO + HOTEL</a></li>
+            <li><a href="#">CONSULTA TU RESERVA AQUI</a></li>
+            <li><a href="#">RESERVA</a></li>
+          </ul>
+
+
+        </div>
+
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+
+</body>
+
+</html>{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch index.html",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "name": "Launch localhost",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach",
+            "type": "firefox",
+            "request": "attach"
+        },
+        {
+            "name": "Launch WebExtension",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "addonPath": "${workspaceFolder}"
+        }
+    ]
+}
