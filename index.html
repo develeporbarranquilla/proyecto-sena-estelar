@@ -13,41 +13,106 @@
 </head>
 
 <body>
-  <nav class="nav-extended grey darken-3 " role="navigation">
+  <!-- barra de menu con logos   -->
+  <nav class="grey darken-3 " role="navigation">
     <div class="nav-wrapper">
       <a href="#" class="brand-logo"></a>
-      <img src="imagenes del proyecto/Imagen1.png"
-        alt="C:\Users\DANNY LABORDE\Desktop\starter-template\imagenes del proyecto\Imagen1.png">
-      <div class="row">
-        <div class="col s1"></div>
-        <div class="nav-content right "> 
-          <a href="#" class="brand-logo"></a>
-          <img src="imagenes del proyecto/facebook_icon-icons.com_61257.png"
-            alt="C:\Users\DANNY LABORDE\Desktop\starter-template\imagenes del proyecto\imagenes del proyecto/facebook_icon-icons.com_61257.png"> 
-            <ul class="tabs tabs-transparent">
-              <li class="tab"><a href="#">asesor virtual</a></li>
-              
-            </ul>
-            <ul class="right">
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">DESTINO</a></li>
-            <li><a href="#">PROMOCIONES</a></li>
-            <li><a href="#">SALONES Y CONVENCIONES</a></li>
-            <li><a href="#">FIDELIZACION</a></li>
-            <li><a href="#">RESERVA TU VUELO + HOTEL</a></li>
-            <li><a href="#">CONSULTA TU RESERVA AQUI</a></li>
-            <li><a href="#">RESERVA</a></li>
+      <img src="imagenes del proyecto/Imagen1.png" alt="C:\imagenes del proyecto\Imagen1.png">
+      <div id="nav-mobile" class="right hide-on-med-and-down">
+        <ul>
+          <li class="tab"><a href="#">asesor virtual</a></li>
+          <li class="tab"><a href="#">Crea Tu Cuenta</a></li>
+          <li class="tab"><a href="#">Inicio de Sesion</a></li>
+          <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+          <li><img src="imagenes del proyecto/facebbokk.png"></li>
+          <li><img src="imagenes del proyecto/twitter.png"></li>
+          <li><img src="imagenes del proyecto/twitter.png"></li>
+          <li> <img src="imagenes del proyecto/twitter.png"></li>
+          <li><img src="imagenes del proyecto/twitter.png"></li>
           </ul>
-
-
         </div>
+      </nav>
+
+  <div class="divider"></div>
+  <div class="section.">
+  </div>
+
+  <!-- barra de menu   -->
+  <nav class="grey darken-3">
+    <div class="nav-wrapper">
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">DESTINO</a></li>
+        <li><a href="#">PROMOCIONES</a></li>
+        <li><a href="#">SALONES Y CONVENCIONES</a></li>
+        <li><a href="#">FIDELIZACION</a></li>
+        <li><a href="#">RESERVA TU VUELO + HOTEL</a></li>
+        <li><a href="#">CONSULTA TU RESERVA AQUI</a></li>
+        <li><a href="#">RESERVA</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- botones  -->
+  <div class="center ">
+     <div class="row">
+      <div class="col s2 push-s5"><span class="flow-text"></span></div>
+  <button class="boton">Seleccione hotel</button>
+  <button class="boton">Seleccione fecha</button>
+  <button class="boton">1AD/0NI</button>
+  <button class="boton">Codigo de descuento</button>
+  <button class="btndorado">CONSULTA</button>
+  </div>  
+
+<!-- imgende slider -->
+
+<div class=" container seccion">
+  <div class="row">
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="imagenes del proyecto/Captura de pantalla 2023-07-13 185233.png">
+          <div class="caption center-align">
+          </div>
+        </li>
+    </div>
+    </li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+ 
+<!-- botenes de colores -->
+<div class="center ">
+  <div class="row">
+   <div class="col s2 push-s5"><span class="flow-text"></span></div>
+<button class="btndorado">PAGA AQUI TU RESERVA</button>
+<button class="btnazul">ASESOR VIRTUAL</button>
+<button class="btndorado">PAGA AQUI TU RESERVA</button>
+
+</div>  
 
 
 
-        <!--  Scripts-->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
+
+
+
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Slider.init(elems,);
+    });
+  </script>
 
 </body>
 
