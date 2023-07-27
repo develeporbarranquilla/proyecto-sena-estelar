@@ -13,16 +13,18 @@
 	font-size: inherit;
 }
 /* botones grises */
-.boton{
-  position:center;
+.boton{position:center;
+
   width: 357.11px;
   height: 35.99px;
   left: 0px;
   top: 0px;
-  background-color:#A3A3A2 ;
   border-radius: 50px;
   margin: 60.7958px opx opx;
   padding: .6875px 6.3375;
+  border: 1px solid #A3A3A2;
+  background:  #A3A3A2;
+  border-radius: 50px;
 }
 /* botones DORADO */
 .btndorado{position:center;
@@ -54,3 +56,8 @@
 
 }
 
+blockquote {
+  border-left: 10px solid #A47C36;
+  margin: 0.5px 0.5px;
+  padding-left: 0px;
+}
