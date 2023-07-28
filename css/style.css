@@ -19,12 +19,12 @@
   height: 26px;
   left: 0px;
   top: 0px;
-  border-radius: 50px;
+  border-radius: 0px;
   margin: 60.7958px opx opx;
   padding: .6875px 6.3375;
   border: 1px solid #A3A3A2;
   background:  #A3A3A2;
-  border-radius: 50px;
+  border-radius: 0px;
 }
 /* botones DORADO */
 .btndorado{position:center;
@@ -33,12 +33,12 @@
   height: 35.99px;
   left: 0px;
   top: 0px;
-  border-radius: 50px;
+  border-radius: 0px;
   margin: 60.7958px opx opx;
   padding: .6875px 6.3375;
   border: 1px solid #A47C36;
   background:  #A47C36;
-  border-radius: 50px;
+  border-radius: 0px;
 }
 /* botones AZUL */
 .btnazul{position:center;
@@ -47,12 +47,12 @@
   height: 35.99px;
   left: 0px;
   top: 0px;
-  border-radius: 50px;
+  border-radius: 0px;
   margin: 60.7958px opx opx;
   padding: .6875px 6.3375;
   border: 1px solid #233C79;
   background:  #233C79;
-  border-radius: 50px;
+  border-radius: 0px;
 
 }
 
@@ -111,3 +111,21 @@ blockquote {
 .transparent-grey-darke-4 {
   background-color: rgba(55, 71, 79, 0.6); /* Replace 0.7 with the desired opacity value (0 to 1) */
 }
+
+.custom-carousel {
+  height: 800px; /* Ajusta la altura del carrusel según tus necesidades */
+  
+  .elemento{    
+    width: 106%;
+
+}
+}
+
+.custom-carousel img {
+  height: 500px; /* Ajusta la altura de las imágenes según tus necesidades */
+  object-fit: cover; /* Para mantener la relación de aspecto de las imágenes */
+}
+
+
+
+
