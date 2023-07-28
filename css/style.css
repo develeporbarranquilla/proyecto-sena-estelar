@@ -84,3 +84,24 @@ blockquote {
     width: 10%;
     z-index: 1;
 }
+.btncuadrado{
+  position:center;
+  width: 357.11px;
+  height: 35.99px;
+  left: 0px;
+  top: 0px;
+  background-color:#CYF;
+  border-radius: 0px;
+  margin: 60.7958px opx opx;
+  padding: .6875px 6.3375;
+}
+
+#pantalla-ingreso {
+  background-image: url("../imagenes del proyecto/wallpaper.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.transparent-grey-darke-4 {
+  background-color: rgba(55, 71, 79, 0.6); /* Replace 0.7 with the desired opacity value (0 to 1) */
+}
