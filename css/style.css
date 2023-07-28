@@ -102,6 +102,12 @@ blockquote {
   background-repeat: no-repeat;
 }
 
+#pantalla-reserva {
+  background-image: url("../imagenes del proyecto/recepcion.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .transparent-grey-darke-4 {
   background-color: rgba(55, 71, 79, 0.6); /* Replace 0.7 with the desired opacity value (0 to 1) */
 }
