@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Hotel Esterlar</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body id="pantalla-reserva">
+    <div>
+        <!-- barra de menu con logos   -->
+        <nav class="grey darken-3 " role="navigation">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"></a>
+                <img src="imagenes del proyecto/Imagen1.png" alt="">
+                <div id="nav-mobile" class="right hide-on-med-and-down">
+                    <ul>
+                        <li class="tab"><a href="#">asesor virtual</a></li>
+                        <li class="tab"><a href="#">Crea Tu Cuenta</a></li>
+                        <li class="tab blockquote"><a href="#">
+                                <blockquote>Inicio de sesion</blockquote>
+                            </a></li>
+                        </a></li>
+                        <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+                        <li><img src="imagenes del proyecto/facebbokk.png"></li>
+                        <li><img src="imagenes del proyecto/twitter.png"></li>
+                        <li><img src="imagenes del proyecto/twitter.png"></li>
+                        <li> <img src="imagenes del proyecto/twitter.png"></li>
+                        <li><img src="imagenes del proyecto/twitter.png"></li>
+                    </ul>
+                </div>
+        </nav>
+
+    </div>
+
+    <div class="row">
+
+        <form class="card-panel transparent-grey-darke-4 col s10 offset-s1">
+
+
+
+            <div class="row">
+                <div class="input-field col s4 offset-s1">
+                    <input type="text" class="datepicker">
+                    <label for="Entrada">Entrada</label>
+                </div>
+
+                <div class="input-field col s4 offset-s2">
+                    <input type="text" class="datepicker">
+                    <label for="Salida">Salida</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s4 offset-s1">
+                    <input id="Huespedes" type="number" class="validate">
+                    <label for="Huespedes">Huespedes</label>
+                </div>
+
+                <div class="input-field col s4 offset-s2">
+
+                    <select>
+                        <option value="" disabled selected>Elije una opcion</option>
+                        <option value="1">Sencilla</option>
+                        <option value="2">Suite</option>
+                    </select>
+                    <label>Tipo de habitacion</label>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s4 offset-s1">
+                    <select>
+                        <option value="" disabled selected>Elije una opcion</option>
+                        <option value="1">Sencilla</option>
+                        <option value="2">Doble</option>
+                    </select>
+                    <label>Referencia de cama</label>
+                </div>
+                <br><br>
+                <div class="switch col s4 offset-s2">
+
+
+                    <label>
+                        Sin desayuno
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        Con desayuno
+                    </label>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+
+            <div class="row">
+                <a class="white black-text btn-small col s4 offset-s4">Buscar</a>
+            </div>
+
+        </form>
+
+
+    </div>
+
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems,);
+        });
+    </script>
+
+</body>
+
+</html>
