@@ -15,8 +15,8 @@
 /* botones grises */
 .boton{position:center;
 
-  width: 357.11px;
-  height: 35.99px;
+  width: 204px;
+  height: 26px;
   left: 0px;
   top: 0px;
   border-radius: 50px;
@@ -60,4 +60,27 @@ blockquote {
   border-left: 10px solid #A47C36;
   margin: 0.5px 0.5px;
   padding-left: 0px;
+}
+
+.lingold {background-color: #A47C36;
+    height: 10px;
+    margin-right: 0%;
+    width: 50%;
+  }
+
+  .lin1{background-color: #A47C36;
+    height: 10px;
+    margin-left: 70%;
+    width: 50%;
+  }
+
+  .line{background-color: #a47c36;
+    border-radius: 5px;
+    content: "";
+    height: 3px;
+    position: absolute;
+    right: 22%;
+    top: 0.5em;
+    width: 10%;
+    z-index: 1;
 }
