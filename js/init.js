@@ -4,6 +4,8 @@
     $('.sidenav').sidenav();
     $('.datepicker').datepicker();
     $('select').formSelect();
-    $('.carousel').carousel();
+    $('.carousel').carousel(
+      
+    );
   }); // end of document ready
 })(jQuery); // end of jQuery name space
