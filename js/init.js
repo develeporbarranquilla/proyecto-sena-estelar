@@ -2,6 +2,7 @@
   $(function(){
 
     $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
     $('.datepicker').datepicker();
     $('select').formSelect();
     $('.carousel').carousel(
