@@ -2,6 +2,7 @@
   $(function(){
 
     $('.sidenav').sidenav();
+    $('.fixed-action-btn').floatingActionButton();
     $('.materialboxed').materialbox();
     $('.datepicker').datepicker();
     $('select').formSelect();

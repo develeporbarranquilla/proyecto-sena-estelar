@@ -5,7 +5,16 @@
  *
  * Made By MaterializeCSS.com
  */
-
+ #pantalla-olvido-contrasena {
+  background-image: url("../imagenes del proyecto/recepcion.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#pantalla-crea-tu-cuentas {
+  background-image: url("../imagenes del proyecto/crea tu cuenta.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -267,3 +276,10 @@ blockquote {
   .icono{
     color: #A56A03;
 }
+.formulario {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo para hacer legible el contenido */
+    padding: 20px;
+    border-radius: 10px;
+  }
