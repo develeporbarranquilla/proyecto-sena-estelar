@@ -1,7 +1,7 @@
 html {
+  font-size: 62.5%;
   box-sizing: border-box;
-
-  /* 1 rem=10px*/
+  scroll-snap-type: y  mandatory;
 }
 
 *,
@@ -15,17 +15,19 @@ body {
   font-size: 1, 6rem;
   line-height: 2;
 }
-
+@media(min-width: 480px){
 #pantalla-olvido-contrasena {
   background-image: url("../imagenes del proyecto/recepcion.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+}
+@media(min-width: 480px){
 #pantalla-crea-tu-cuentas {
   background-image: url("../imagenes del proyecto/crea tu cuenta.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+}
 }
 
 .icon-block {
@@ -128,17 +130,24 @@ blockquote {
   margin: 60.7958px opx opx;
   padding: .6875px 6.3375;
 }
+@media(min-width: 480px){
+#pantalla-principal{
 
+}
+}
+@media(min-width: 480px){
 #pantalla-ingreso {
   background-image: url("../imagenes del proyecto/wallpaper.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+}
+@media(min-width: 480px){
 #pantalla-reserva {
   background-image: url("../imagenes del proyecto/recepcion.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
 }
 
 .transparent-grey-darke-4 {
@@ -146,8 +155,8 @@ blockquote {
   /* Replace 0.7 with the desired opacity value (0 to 1) */
 }
 
-.carousel .carousel-item img {
-  max-height: 300px;
+.carousel-item img {
+  max-height: 600px;
   /* Ajusta la altura máxima de las imágenes según tus necesidades */
   max-width: 100%;
   /* Asegura que las imágenes no se salgan del contenedor */
@@ -160,11 +169,12 @@ blockquote {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+@media(min-width: 480px){
 #pantalla-olvido-contrasena {
   background-image: url("../imagenes del proyecto/recepcion.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
 }
 
 #mapa-navegacion {
@@ -342,8 +352,8 @@ blockquote {
 .formulario {
   background-color: rgba(0, 0, 0, 0.47);
   width: min(60rem, 100%);
-  margin: 10px auto;
-  padding: 2rem;
+  margin: auto;
+  padding: 5rem;
   border-radius: 1rem;
   -webkit-caja-sombra: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
   -moz-caja-sombra: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
@@ -354,6 +364,7 @@ blockquote {
 .formulario fieldset {
   border: none;
   padding: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .formulario legend {
@@ -362,7 +373,7 @@ blockquote {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 2rem;
-  color: #ffc107;
+  color: #fff;
 }
 
 @media(min-width:768px) {

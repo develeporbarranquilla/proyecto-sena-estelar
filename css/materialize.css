@@ -6091,7 +6091,7 @@ button:focus {
 }
 
 label {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #f1eaea;;
 }
 
@@ -6520,9 +6520,9 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 .input-field > label {
   color: #fff;
   position: absolute;
-  top: 0;
+  top: -15px;
   left: 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: text;
   -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
   transition: color .2s ease-out, -webkit-transform .2s ease-out;
@@ -7196,8 +7196,8 @@ select {
 
 .select-wrapper + label {
   position: absolute;
-  top: -26px;
-  font-size: 0.8rem;
+  top: -35px;
+  font-size: 1.2rem;
 }
 
 select:disabled {
