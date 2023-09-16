@@ -4507,7 +4507,7 @@ html {
 
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -8326,7 +8326,7 @@ input[type=range]::-ms-thumb {
 .slider .indicators {
   position: absolute;
   text-align: center;
-  left: 0;
+  left: 215px;
   right: 0;
   bottom: 0;
   margin: 0;

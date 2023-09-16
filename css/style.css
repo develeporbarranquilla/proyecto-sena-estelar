@@ -1,18 +1,18 @@
-
-
 html {
   box-sizing: border-box;
-  
+
   /* 1 rem=10px*/
 }
 
-*,*:before,*:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   font-family: var(--fuenteParrafos);
-  font-size: 1,6rem;
+  font-size: 1, 6rem;
   line-height: 2;
 }
 
@@ -41,7 +41,7 @@ body {
   position: center;
 
   width: 204px;
-  height: 26px;
+  height: 40px;
   left: 0px;
   top: 0px;
   border-radius: 0px;
@@ -56,8 +56,8 @@ body {
 .btndorado {
   position: center;
   position: center;
-  width: 357.11px;
-  height: 35.99px;
+  width: 345.11px;
+  height: 37.99px;
   left: 0px;
   top: 0px;
   border-radius: 0px;
@@ -101,8 +101,8 @@ blockquote {
 .lin1 {
   background-color: #A47C36;
   height: 10px;
-  margin-left: 70%;
-  width: 50%;
+  margin-left: 0%;
+  width: 100%;
 }
 
 .line {
@@ -202,7 +202,7 @@ blockquote {
   margin-left: 42px;
   float: left;
   position: relative;
-  width: 27%;
+  width: 26%;
   height: 516px;
   background-color: #D9D9D9;
   border-radius: 25px;
@@ -232,7 +232,7 @@ blockquote {
   font-family: arial, narrow Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #A56A03;
   font-weight: 700;
-  margin-top: 0rem;
+  margin-top: -2rem;
 }
 
 .divprincipal1 {
@@ -268,7 +268,29 @@ blockquote {
   border: 1px solid #233C79;
   background: #233C79;
   border-radius: 0px;
+  cursor: pointer;
+}
 
+.boton-btn {
+  display: block;
+  color: #ffff;
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+@media(min-width:768px) {
+  .boton {
+    display: inline-block;
+  }
+}
+
+.boton--segundario {
+  background-color: var(--primario);
 }
 
 .precio-habitacion1 {
@@ -277,6 +299,7 @@ blockquote {
   color: #A56A03;
   font-weight: 700;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .titulo-tipo-habitacion1 {
@@ -298,7 +321,7 @@ blockquote {
 .contenido-habitacion1 {
   padding-left: 16px;
   padding-right: 18px;
-
+  
 }
 
 .icono {
@@ -387,7 +410,8 @@ blockquote {
   width: 100%;
 
 }
-.footer{
+
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
